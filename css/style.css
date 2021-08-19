@@ -74,3 +74,26 @@ body {
 .main__text {
   text-align: center;
 }
+
+@media screen and (max-width: 890px) {
+  nav {
+    width: 140vh;
+  }
+
+  .main__container {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .main__card {
+    width: 100px;
+    height: 150px;
+  }
+
+  .main__img {
+    height: 50px;
+    width: 50px;
+  }
+}
