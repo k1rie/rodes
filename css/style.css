@@ -76,6 +76,10 @@ body {
 }
 
 @media screen and (max-width: 890px) {
+  html {
+    width: 890px;
+  }
+
   nav {
     width: 140vh;
   }
